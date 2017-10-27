@@ -1,0 +1,21 @@
+.switchWeek {
+    margin-top: 15px;
+}
+.schedule {
+    min-height: 100%;
+}
+.schedule > thead > tr > th {
+    transform: rotate(-90deg);
+    padding: 30px 0;
+    margin: 0;
+    line-height: 1;
+}
+.schedule > tbody > tr > th {
+    text-align: center;
+    padding: 14px 0;
+}
+
+.schedule > tbody > tr > th > span.day_desc {
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
